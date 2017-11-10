@@ -1,0 +1,267 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td { vertical-align: top }
+
+html { font-size:10px }
+
+body {
+    font: 1.2em/1.66667 Arial, Helvetica, sans-serif;
+    color: #333333;
+}
+h1 { font-size: 2em; line-height:1.66667; margin:0.41666666666667em 0 }
+h2 { font-size: 1.66667em; line-height:1.2; margin:.75em 0 .25em }
+h3 { font-size: 1.33334em; line-height:1.25; margin:0.9375em 0 0.3125em }
+h4,p,ul { font-size: 1.16667em; line-height:1.42857; margin-bottom:1.42857em }
+p+h3, p+h4, ul+h3, ul+h4 { margin: 30px 0 10px }
+
+img.hero {
+    margin:20px 0;
+    max-width:100%;
+    width:100%;
+}
+ul.eng-bullets {
+    list-style: disc;
+    margin-left:1.5em;
+}
+
+ul.eng-bullets li { text-indent: -0.5ex }
+
+.main strong {
+	font-size: 12px;
+	color: #0A57A4;
+}
+.main th {
+	padding: 20px 0px 20px 0px
+}
+
+h3,h2 {
+    color: #0A57A4;
+    font-size:16px;
+}
+
+h2 { font-size: 20px; line-height: 1.25; margin:10px 0 }
+
+nav ul { line-height: 12px }
+#text { padding-right:20px; }
+.header, .header a {
+	font-size: 12px;
+	color: #ffffff;
+	white-space: nowrap;
+	vertical-align: middle;
+}
+a:hover, a.header .selected {
+	color:#F7B715
+}
+.header a, .header a:visited {
+	font-weight: bold;
+	text-align: left;
+	text-decoration: none;
+}
+.sml {
+	font-size:10px;
+	color:#999999;
+}
+.nav {
+	font-size: 1.16667em;
+	font-weight: normal;
+	color: #969696;
+}
+table.nav {
+	padding: 0px 0px 0px 0px;
+}
+.nav a {
+	font-weight: bold;
+	color:#666666;
+	line-height:18px;
+	text-decoration: none;
+}
+.nav a img {
+	visibility:hidden;
+}
+.nav a:hover, .nav a:hover img {
+	color: orange;	
+	}
+.nav a:hover, #ylw {
+	background:url('imgs/arrow_orange.gif') no-repeat 0px 50%;
+	color: orange;
+}
+.nav td {
+	border-top:solid 1px #cccccc;
+	border-bottom:solid 1px #cccccc;
+}
+.nav th, .navth {
+	padding: 24px 0px 20px 0px
+}
+.nav a {
+	padding-left:8px;
+}
+#ibrdr { border:solid 1px #cccccc }
+
+
+/********* Blue and Orange link arrows ******************/
+.arrow, a.arrow { padding-left:10px; background: url('imgs/arrow_blue.gif') no-repeat 0px 50%; }
+a.arrow:hover { background: url('imgs/arrow_orange.gif'); }
+/********************************************************************/
+
+
+.nav-bullets ul {
+    font-size: 14px;
+    list-style: disc;
+    line-height: 1.5;
+    padding-left: 2em;
+}
+.nav-bullets h4 {
+    background:url('imgs/arrow_orange.gif') no-repeat 0px 50%;
+    color: orange;
+    font-size:1.3em;
+    list-style: none;
+    margin-bottom: .3em;
+    padding-left:0;
+    text-indent: 9px;
+}
+
+/* HTML5 and jQuery Super Simple Nav by Todd Motto @toddmotto - toddmotto.com */
+
+/* =============================================================================
+   Navigation Core Styles
+   ========================================================================== */
+
+nav {
+    background: #000;
+    float: left;
+}
+
+nav a:link,
+nav a:visited {
+    color:#efefef;
+}
+
+nav a:hover, nav a.selected {
+    color:#F9C605;
+    /*color:#fff;*/
+}
+
+nav ul:first-child {
+    background: #0A57A4;
+}
+nav ul {
+    font-size: 12px;
+    height: 28px;
+    line-height: 1;
+    margin:0;
+    padding:0;
+    text-align: center;
+    width: 100%;
+}
+
+nav ul li {
+    background: url("imgs/blu_divider.gif") no-repeat 0 0;
+    display: inline;
+    float: left;
+}
+nav ul li:first-child {
+    background-image: url("imgs/blkblu_divider.gif");
+}
+
+/*nav ul li:hover {background:#E6E6E6;}*/
+nav ul li a {
+    display: block;
+    padding: 7px 10px 7px 36px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul li ul {
+    background: #FFF;
+    margin-left: 4px;
+    position: absolute;
+    width: 200px;
+}
+
+/*nav ul li ul li {margin:0;padding:0;width:110px;}*/
+nav ul li ul li {
+    background-image: none;
+    background-color: #0A57A4;
+    /*border-top: 2px solid #fff;*/
+    /*border-bottom: 3px solid #fff;*/
+    padding: 0;
+    border-top: 1px solid #073b70;
+}
+
+nav ul li ul li:hover, nav ul li ul li:first-child {
+    background-image: none;
+}
+
+nav ul li ul li:hover {
+    background-color: #08498a;
+}
+
+nav ul li ul li a {
+    display: block;
+    padding: 12px 25px;
+    color: white;
+}
+
+nav ul li ul.fallback {
+    display: block;
+}
+
+nav ul li:hover ul.fallback {
+    display: block;
+}
+
+nav ul li ul {
+    padding: 0 0 0 0;
+}
+nav ul.services li { width:200px }
+nav ul.upgrdservices li { width:200px }
+nav ul.onsiteservices li { width:230px }
+
+nav ul li ul { visibility: hidden; display: none; }
